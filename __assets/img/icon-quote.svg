@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="22px" viewBox="0 0 31 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-quote</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-quote" fill="#A6A6A6">
+            <g id="quote">
+                <path d="M10.833,0 L4.333,0 L0,8.8 L0,22 L13,22 L13,8.8 L6.5,8.8 L10.833,0 Z M28.833,0 L22.333,0 L18,8.8 L18,22 L31,22 L31,8.8 L24.5,8.8 L28.833,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

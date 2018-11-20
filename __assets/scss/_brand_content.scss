@@ -1,0 +1,115 @@
+section#brand-content {
+  padding: 50px 0;
+  border-bottom: 1px solid #e2e2e2;
+  section > {
+    header {
+      margin: 0 0 50px;
+      > {
+        strong {
+          display: block;
+          font-size: 1.8rem;
+          font-weight: 700;
+          line-height: 1.39;
+          margin: 0 0 45px;
+        }
+        section {
+          overflow: auto;
+          > div {
+            &.review {
+              background: $dark-gray;
+              color: #fff;
+              width: 120px;
+              height: 120px;
+              margin: 0 20px 0 0;
+              > {
+                strong {
+                  display: block;
+                  font-size: 2.2rem;
+                  text-align: center;
+                  font-weight: 700;
+                  margin: 15px 0 4px;
+                }
+                span {
+                  text-align: center;
+                  display: block;
+                  font-size: 1.4rem;
+                  color: #a6a6a6;
+                }
+                footer {
+                  background: #323232;
+                  margin: 11px 0 0;
+                  padding: 12px 0 9px 17px;
+                  > .review-element {
+                    margin: 0 auto;
+                  }
+                }
+              }
+            }
+            &.line-chart {
+              width: calc(100% - 140px);
+              > div {
+                &:nth-child(1) > div > span {
+                  width: 92.63%;
+                }
+                &:nth-child(2) > div > span {
+                  width: 58.24%;
+                }
+                &:nth-child(3) > div > span {
+                  width: 31.22%;
+                }
+                &:nth-child(4) > div > span {
+                  width: 13.33%;
+                }
+              }
+            }
+          }
+        }
+        p {
+          font-size: 1.2rem;
+          line-height: 1.67;
+          color: #6a6a6a;
+          margin: 30px 0 0;
+          > svg {
+            position: relative;
+            top: 7px;
+            margin: 0 6px 0 0;
+          }
+        }
+      }
+    }
+    section > {
+      div {
+        padding: 20px 30px;
+        background: #f2f2f2;
+        color: #000;
+        font-size: 1.4rem;
+        margin: 0 0 30px;
+        > {
+          b {
+            font-size: 1.6rem;
+            margin: 0 0 10px;
+            display: block;
+          }
+          p {
+            margin: 0;
+          }
+        }
+      }
+      p {
+        color: #000;
+        font-size: 1.4rem;
+        line-height: 1.43;
+        letter-spacing: 0.3px;
+        margin: 0 0 30px;
+        &:last-of-type {
+          margin: 0;
+        }
+        > a {
+          font-weight: 700;
+          line-height: 1.43;
+          color: $btn-blue;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.review-element {
+  margin: 15px 0;
+  .empty path {
+    fill: #c5c5c5;
+  }
+  .full path {
+    fill: #f5c16b;
+  }
+  > strong {
+    font-size: 1.4rem;
+    line-height: 1.43;
+    color: #000;
+    margin: 0 0 0 8px;
+    position: relative;
+    top: -1px;
+  }
+}

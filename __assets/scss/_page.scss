@@ -1,0 +1,25 @@
+#page {
+	color: black;
+	margin-top: 60px;
+
+	h1 {
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 1.33;
+	}
+
+	article {
+		h2 {
+			font-size: 24px;
+			font-weight: bold;
+			line-height: 1.67;
+		}
+
+		p {
+			font-size: 18px;
+			font-weight: normal;
+			line-height: 1.39;
+			letter-spacing: 0.4px;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+div[data-tab-name] {
+  overflow: hidden;
+  .tab-container {
+    position: relative;
+    overflow: auto;
+    > div {
+      float: left;
+    }
+  }  
+} 
+

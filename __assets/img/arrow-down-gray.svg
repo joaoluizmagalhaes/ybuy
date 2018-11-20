@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="4px" viewBox="0 0 8 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-down-gray.svg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header-arrow-down" fill="#414141" fill-rule="nonzero">
+            <g id="arrow-down-gray.svg">
+                <path d="M7.9019691,0.0843334904 C7.7712633,-0.0281111601 7.5591982,-0.0281111601 7.4284924,0.0843334904 L4.0001822,3.30412172 L0.57151902,0.0843334904 C0.44081328,-0.0281111601 0.22873506,-0.0281111601 0.09802931,0.0843334904 C-0.03267644,0.196778141 -0.03267644,0.379151052 0.09802931,0.491584512 L3.74643081,3.91796882 C3.81611702,3.97790572 3.90880973,4.00358332 3.99984232,3.99960022 C4.0911886,4.00358332 4.1835676,3.97790572 4.2532538,3.91796882 L7.9019821,0.491282422 C8.0326748,0.378860152 8.0326748,0.196778141 7.9019691,0.0843334904 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,422 @@
+main#post {
+  margin: 60px 0 0;
+  > article {
+
+    > header {
+      position: relative;
+      z-index: 1;
+      padding: 139px 0 0 128px;
+      overflow: hidden;
+      height: 400px;
+      margin: 0 0 16px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0), #000000);
+      }
+
+      > {
+        h1 {
+          color: #fff;
+          max-width: 680px;
+          font-size: 4rem;
+          font-weight: 700;
+          margin: 0;
+          position: relative;
+          z-index: 2;
+        }
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: -1;
+          min-height: 400px;
+        }
+      }
+    }
+
+
+    section {
+      header {
+        overflow: auto;
+        padding: 0 0 15px;
+        border-bottom: solid 1px #c5c5c5;
+        margin: 0 0 30px;
+
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 180px;
+          float: left;
+          margin: 0 10px 0 0;
+        }
+
+        h2 {
+          margin: 0;
+          font-size: 1.4rem;
+          font-weight: 700;
+          color: #000;
+          line-height: 1.43;
+        }
+
+        time {
+          font-size: 1.2rem;
+          line-height: 1.67;
+          color: #a6a6a6;
+        }
+
+      }
+      article {
+        color: #000;
+        padding: 0 0 30px;
+       
+
+        p {
+          font-size: 1.8rem;
+          line-height: 1.39;
+          letter-spacing: 0.4px;
+          margin: 0 0 30px;
+        }
+
+        ul {
+          padding: 0;
+          margin: 0 0 30px;
+          list-style: none;
+          list-style-position: inside;
+          list-style-image: url(__assets/img/icon-list-pros.svg) !important;
+
+          > li {
+            color: #000;
+            font-size: 1.8rem;
+            line-height: 1.39;
+            letter-spacing: 0.4px;
+            margin: 0 0 10px;
+
+            &:last-of-type {
+              margin: 0
+            }
+
+          }
+
+          &:last-of-type {
+            margin: 0;
+          }
+
+        }
+
+        h3 {
+          font-size: 2.4rem;
+          margin: 0 0 30px;
+          font-weight: 700;
+          line-height: 1.67;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+          transform: scale(1);
+          transition: all 0s;
+        }
+
+        .wp-caption {
+          width: 100% !important;
+          max-width: 100% !important
+        }
+
+        .wp-caption-text {
+          font-size: 1.4rem;
+          margin: 10px 0 30px;
+          font-style: italic;
+        }
+
+      }
+
+    }
+
+
+    .review-on-post {
+      margin: 30px 0 0;
+      padding: 30px 0 0;
+      border-top: 1px solid #c5c5c5;
+
+      > {
+        h2 {
+          font-size: 3rem;
+          font-weight: 700;
+          line-height: 1.33;
+          margin: 0 0 30px;
+
+          > span {
+            font-size: 2.4rem;
+            line-height: 1.67;
+            text-align: center;
+            display: inline-block;
+            color: #fff;
+            background: $dark-gray;
+            font-weight: 700;
+            padding: 10px 18px;
+            margin: 0 20px 0 0;
+          }
+        }
+        .galery {
+          margin: 0 0 30px;
+
+          > div {
+            border-left: 1px solid #e8e8e8;
+            border-right: 1px solid #e8e8e8;
+            border-bottom: 1px solid #e8e8e8;
+            padding: 15px 20px;
+            position: relative;
+
+            > {
+              svg {
+                position: absolute;
+                top: 11px;
+                right: 14px;
+              }
+
+              h4 {
+                font-weight: 700;
+                font-size: 1.6rem;
+                color: #000;
+                margin: 0;
+                line-height: 1.56;
+                -webkit-font-smoothing: auto;
+              }
+
+              h5 {
+                margin: 0;
+
+                > a {
+                  font-weight: 700;
+                  font-size: 1.2rem;
+                  color: $btn-blue;
+                  line-height: 1.67;
+                }
+              }
+              .review-element {
+                margin: 10px 0 15px;
+              }
+
+              p {
+                font-size: 1.2rem;
+                color: #a6a6a6;
+                margin: 0;
+
+                > strong {
+                  font-size: 1.4rem;
+                  color: #000;
+                  line-height: 1.43;
+                  letter-spacing: 0.3px;
+                  display: inline-block;
+                  margin: 4px 0;
+                }
+              }
+            }
+          }
+        }
+        .rated {
+          overflow: auto;
+          margin: 0 0 30px;
+
+          > div {
+            background: $dark-gray;
+            color: #fff;
+            width: 120px;
+            height: 120px;
+            margin: 0 30px 0 0;
+            float: left;
+
+            > {
+              strong {
+                display: block;
+                font-size: 2.2rem;
+                text-align: center;
+                font-weight: 700;
+                margin: 15px 0 5px;
+              }
+
+              span {
+                text-align: center;
+                display: block;
+                font-size: 1.4rem;
+                color: #a6a6a6;
+              }
+
+              footer {
+                background: #323232;
+                margin: 11px 0 0;
+                padding: 12px 0 9px 17px;
+
+                > .review-element {
+                  margin: 0 auto;
+                }
+              }
+            }
+          }
+        }
+        .content {
+          overflow: auto;
+
+          ul {
+            padding: 0;
+            margin: 0 0 30px;
+            list-style: none;
+            list-style-position: inside;
+
+            > li {
+              color: #000;
+              font-size: 1.8rem;
+              line-height: 1.39;
+              letter-spacing: 0.4px;
+              margin: 0 0 10px;
+            }
+
+            &:last-of-type, > li:last-of-type {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  div.img-bf {
+    position: relative;
+
+    > span {
+      background: #f55659;
+      color: #fff;
+      display: inline-block;
+      font-size: 2.4rem;
+      font-weight: 700;
+      left: 0;
+      line-height: 1.67;
+      padding: 10px 18px;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      z-index: 1
+    }
+
+    > .review {
+      background: #f55659;
+      bottom: 0;
+      color: #fff;
+      height: 120px;
+      position: absolute;
+      right: 0;
+      width: 120px;
+      overflow: hidden;
+      z-index: 1;
+
+      > strong {
+        display: block;
+        font-size: 2.2rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 15px 0 5px
+      }
+
+      > span {
+        text-align: center;
+        display: block;
+        font-size: 1.4rem
+      }
+
+      > .review-element {
+        background: #f67678;
+        overflow: auto;
+        margin: 13px 0 0;
+        padding: 12px 0 9px 15px;
+
+        > span {
+          width: 15px;
+          height: 15px;
+          background: url(__assets/img/star-full.png) no-repeat 0 0;
+          display: block;
+          float: left;
+          margin: 0 3px 0 0;
+
+          &.e {
+            width: 15px;
+            height: 15px;
+            background: url(__assets/img/star-empty.png) no-repeat 0 0;
+            display: block;
+            float: left
+          }
+
+        }
+
+      }
+
+    }
+
+    p {
+      margin: 0;
+    }
+
+  }
+}
+  
+.half-content {
+  overflow: auto;
+
+  > ul {
+    border: 1px solid #000;
+    float: right;
+    list-style-image: initial !important;
+    list-style: none;
+    margin: 0 0 15px 15px!important;
+    padding: 15px;
+    width: 52.75%;
+
+    > li {
+      padding: 0 0 15px;
+      border-bottom: 2px solid #e1e1e1;
+      overflow: auto;
+      margin: 0 0 15px;
+
+      > strong {
+        font-size: 2rem;
+        color: #000;
+        position: relative;
+        top: 2px;
+      }
+
+      > span {
+        font-size: 1.3rem;
+        color: #575757;
+        text-align: right;
+        margin: 0 0 0 30px;
+        position: relative;
+        top: -1px;
+      }
+
+      > a {
+        float: right;
+        display: inline-block;
+        padding: 7px 20px;
+        border-radius: 20px;
+        background: #09bd84;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+      }
+
+      &:last-of-type {
+        padding: 0;
+        border: none;
+        margin: 0;
+      }
+    }
+  }
+}

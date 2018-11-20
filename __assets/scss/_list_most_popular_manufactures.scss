@@ -1,0 +1,69 @@
+section#list-most-popular-manufacturers {
+  > a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: $btn-blue;
+    margin: 9px 0 0;
+    > svg {
+      margin: 0 0 0 10px;
+    }
+  }
+  .row {
+    clear: left;
+  }
+  article {
+    margin: 20px 0 0;
+    > {
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        > figure {
+          border: 1px solid #e8e8e8;
+          > img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      footer {
+        border-left: 1px solid #e8e8e8;
+        border-right: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        padding: 13px 20px 26px;
+        > {
+          h4 {
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: #000;
+            margin: 0 0 1px;
+            line-height: 1.39;
+            -webkit-font-smoothing: auto;
+          }
+          h5 {
+            font-weight: normal;
+            font-size: 1.2rem;
+            color: #a6a6a6;
+            margin: 0;
+          }
+          a {
+            font-size: 1.2rem;
+            color: $btn-blue;
+            margin: 13px 0;
+            display: inline-block;
+            font-weight: 700;
+          }
+          .review-element {
+            margin: 0;
+          }
+          strong {
+            font-weight: normal;
+            font-size: 1.2rem;
+            color: #a6a6a6;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+section#sub-header {
+  background-color: #fff;
+  border-bottom: solid 1px #e8e8e8;
+  padding: 0 20px;
+  overflow: auto;
+  width: 100%;
+  strong {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $dark-gray;
+    line-height: 60px;
+    > span {
+      font-weight: 400;
+      font-size: 1.2rem;
+      color: #959595;
+      margin: 0 0 0 8px;
+      > a {
+        font-weight: 700;
+        line-height: 1.67;
+        color: $btn-blue;
+      }
+    }
+  }
+  nav > a {
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #a6a6a6;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 30px 0 0;
+    &.btn.havelock-blue {
+      color: #fff;
+      line-height: initial;
+      padding: 8px 22px;
+      overflow: initial;
+    }
+    &:last-of-type {
+      margin: 0;
+    }
+    &:hover {
+      color: $dark-gray;
+    }
+  }
+
+  &.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  > .pull-left {
+    width: 100%;
+  } 
+}

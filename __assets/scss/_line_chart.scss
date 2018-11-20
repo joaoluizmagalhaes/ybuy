@@ -1,0 +1,50 @@
+.line-chart > div {
+  overflow: auto;
+  margin: 0 0 5.1px;
+  &:last-of-type {
+    margin: 0;
+  }
+  > {
+    * {
+      float: left;
+    }
+    h6 {
+      color: #000;
+      display: inline-block;
+      font-size: 1.4rem;
+      font-weight: normal;
+      letter-spacing: 0.3px;
+      line-height: 1.43;
+      width: 96px;
+      max-width: 96px;
+      margin: 0;
+    }
+    div {
+      width: calc(100% - 146px);
+      position: relative;
+      height: 10px;
+      background: #efefef;
+      top: 4.5px;
+      > span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 10px;
+        z-index: 1;
+        background: $dark-gray;
+      }
+    }
+    span {
+      color: #000;
+      display: inline-block;
+      font-size: 1.4rem;
+      font-weight: normal;
+      letter-spacing: 0.3px;
+      line-height: 1.43;
+      width: 50px;
+      max-width: 50px;
+      text-align: right;
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-brand-verified</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-brand-verified">
+            <g>
+                <circle id="Oval" fill="#4A90E2" fill-rule="nonzero" cx="10" cy="10" r="10"></circle>
+                <g id="path-1" transform="translate(5.000000, 6.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <polygon points="3.236 6.632 0.8847 4.2807 0.1 5.0626 3.236 8.1993 9.9546 1.4807 9.1727 0.696"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

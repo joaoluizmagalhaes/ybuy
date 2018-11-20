@@ -1,0 +1,66 @@
+.btn {
+  text-transform: uppercase;
+  border: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+}
+
+.btn-big {
+  padding: 0 87px;
+  line-height: 50px;
+}
+
+.btn-middle {
+  padding: 0 42px;
+  line-height: 40px;
+}
+
+.btn-small {
+  padding: 0 21px;
+  line-height: 30px;
+}
+
+.btn {
+  &.havelock-blue {
+    background: $btn-blue;
+    color: #fff;
+    &:hover {
+      background: #fff;
+      color: $btn-blue !important;
+      -webkit-box-shadow: inset 0px 0px 0px 1px #e2e2e2;
+      -moz-box-shadow: inset 0px 0px 0px 1px #e2e2e2;
+      box-shadow: inset 0px 0px 0px 1px #e2e2e2;
+      opacity: 1 !important;
+    }
+  }
+  &.wild-watermelon {
+    background: $btn-pink;
+    color: #fff;
+    &:hover {
+      background: #fff;
+      color: $btn-pink !important;
+      -webkit-box-shadow: inset 0px 0px 0px 1px #e2e2e2;
+      -moz-box-shadow: inset 0px 0px 0px 1px #e2e2e2;
+      box-shadow: inset 0px 0px 0px 1px #e2e2e2;
+      opacity: 1 !important;
+    }
+  }
+  &.white {
+    background: #fff;
+    color: $btn-blue;
+    -webkit-box-shadow: inset 0px 0px 0px 1px #e2e2e2;
+    -moz-box-shadow: inset 0px 0px 0px 1px #e2e2e2;
+    box-shadow: inset 0px 0px 0px 1px #e2e2e2;
+    &:hover {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      background: $btn-blue;
+      color: #fff;
+    }
+  }
+}

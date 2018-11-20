@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="15px" viewBox="0 0 8 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-arrow-carousel-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-arrow-carousel-right" fill-rule="nonzero" fill="#414141">
+            <g id="icon-arrow-carousel-left">
+                <path d="M7.8480743,7.4354962 L0.9957128,1.05106675 C0.7708536,0.82233869 0.4061792,0.82233869 0.18132,1.05106675 C-0.0435392,1.27977713 -0.0435392,1.65088576 0.18132,1.87961382 L6.6205119,7.8795362 L0.1818906,13.8794408 C-0.0429686,14.1081689 -0.0429686,14.4792775 0.1818906,14.7079879 C0.4067498,14.9366983 0.7714241,14.9366983 0.996266,14.7079879 L7.8486449,8.3235585 C7.9684914,8.2016291 8.0198739,8.0399817 8.0118692,7.8801195 C8.0193207,7.7196563 7.9679554,7.5580265 7.8480743,7.4354962 Z" id="path-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

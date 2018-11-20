@@ -1,0 +1,40 @@
+section.carousel, .carousel-wrapper {
+  position: relative;
+}
+
+section.carousel > {
+  .row {
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+  }
+  div.control {
+    width: 1180px;
+    height: 30px;
+    position: absolute;
+    bottom: calc(50% - 30px);
+    z-index: 2;
+    > a {
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      cursor: pointer;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-position: 50% 45%;
+      background-image: none;
+      &.prev {
+        background-image: url(__assets/img/icon-arrow-carousel-left.svg);
+        left: -35px;
+      }
+      &.next {
+        background-image: url(__assets/img/icon-arrow-carousel-right.svg);
+        right: -35px;
+      }
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+}

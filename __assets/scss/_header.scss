@@ -1,0 +1,317 @@
+body > header {
+    background: $header-pink;
+    left: 0;
+    overflow: visible;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+    &#fixed {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+    button, a, input {
+        color: #fff;
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    div {
+        position: relative;
+        &.pull-left {
+            width: 70%;
+        }
+        &.pull-right {
+            // width: 30%;
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: right;
+            position: relative;
+            #box-user {
+                overflow: visible;
+                height: 60px;
+                padding: 0 15px;
+                cursor: pointer;
+                background: transparent;
+                position: relative;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 180px;
+                    margin: 10px 10px 0 0;
+                }
+                span {
+                    text-transform: uppercase;
+                    color: #fff;
+                    line-height: 60px;
+                    display: inline-block;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    margin: 0 10px 0 0;
+                }
+                svg {
+                    position: relative;
+                    top: 20px;
+                }
+                &.active {
+                    background: $light-pink;
+                    svg {
+                        -moz-transform: rotate(180deg);
+                        -webkit-transform: rotate(180deg);
+                        -o-transform: rotate(180deg);
+                        -ms-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                    }
+                }
+                ul {
+                    display: none;
+                    background: #fff;
+                    position: absolute;
+                    list-style: none;
+                    margin: 0;
+                    padding: 10px 0 0;
+                    top: 75px;
+                    right: 0;
+                    width: 200px;
+                    z-index: 99998;
+                    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.2);
+                    -moz-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.2);
+                    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.2);
+                    li {
+                        text-indent: 30px;
+                        
+                        &:last-of-type {
+                            border-top: 1px solid #e2e2e2;
+                            margin: 10px 0 0;
+
+                        }
+
+                        a{
+                            color: #414141;
+                            text-transform: uppercase;
+                            line-height: 40px;
+                            font-size: 1.2rem;
+                            font-weight: 700;
+                            text-decoration: none;
+                        } 
+                    }
+                    &::after {
+                        content: '';
+                        width: 0;
+                        height: 0;
+                        background: transparent;
+                        position: absolute;
+                        top: -10px;
+                        right: 15px;
+                        border-left: 10px solid transparent;
+                        border-right: 10px solid transparent;
+                        border-bottom: 10px solid #fff;
+                        z-index: 99999;
+                        
+                    }
+                }
+            }
+        }
+        > h1 {
+            margin: 16px 30px 11px 0;
+            padding: 0;
+            > a {
+                display: inline-block;
+            }
+        }
+    }
+    > {
+        div > {
+            button {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                background: transparent;
+                > svg {
+                    margin: 0 0 0 10px;
+                    position: relative;
+                    top: -2px;
+                }
+            }
+            
+        }
+        .pull-left {
+            .form-wrapper > form {
+                background: $light-pink;
+                margin: 0 0 0 36px;
+                width: 67%;
+                > {
+                    svg {
+                        margin: 21px 20px 0;
+                        float: left;
+                    }
+                    input {
+                        background: transparent;
+                        border: 0;
+                        margin: 0;
+                        padding: 0;
+                        float: left;
+                        width: calc(100% - 58px);
+                        text-transform: none;
+
+                        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                            color: white;
+                            opacity: 0.8;
+                        }
+                        &::-moz-placeholder { /* Firefox 19+ */
+                            color: white;
+                            opacity: 0.8;
+                        }
+                        &:-ms-input-placeholder { /* IE 10+ */
+                            color: white;
+                            opacity: 0.8;
+                        }
+                        &:-moz-placeholder { /* Firefox 18- */
+                            color: white;
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+        }
+
+        .pull-right > a {
+            display: inline-block;
+            overflow: inherit;
+
+            &.close-button,
+            &.menu-button,
+            &.search-button {
+                display: none;
+            }
+
+        }
+    }
+    a {
+        &.cadastre {
+            margin: 0 30px 0 auto;
+        }
+        &.login {
+            // margin: 0 40px 0 0;
+        }
+        &.notification {
+            margin: 0 18px 0 0;
+            width: 18px;
+            position: relative;
+            top: 4px;
+        }
+        &.wishlist {
+            width: 18px;
+            position: relative;
+            top: 3px;
+        }
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    body > header {
+        > div.pull-left {
+            width: initial;
+            
+            > .form-wrapper {
+                position: fixed;
+                width: 100%;
+                margin: 0;
+                top: 60px;
+                left: 0;
+                height: 35px;
+                display: none;
+                background: $header-pink;
+                padding: 0 5px;
+
+                form {
+                    width: 100%;
+                    margin: 0;
+
+                    > svg {
+                        margin: 5px 7px 7px 5px;
+                    }
+
+                    input {
+                        height: 30px;
+                    }
+                }
+            }
+
+        }
+
+        >div.pull-right {
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .menu-icon{
+                margin: 0 10px 0 10px;
+                width: 18px;
+                height: 18px;
+                position: relative;
+                top: calc(50% - 9px);
+
+                > .sanduiche {
+                    width: 20px;
+                    height: 14px;
+                    fill: white;
+                }
+
+                > .close {
+                    width: 18px;
+                    height: 18px;
+                    fill: white;
+                }
+
+                &.close-button {
+                    display: none;
+                }
+
+                &.menu-button, &.search-button {
+                    display: inline-block;
+                }
+            }
+
+            > #box-user {
+                display: none;
+                position: fixed;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                background: $light-pink;
+                height: 201px;
+                z-index: 100;
+
+                > svg {
+                    display: none;
+                }
+
+                > ul {
+                    position: relative;
+                    display: inline-block;
+                    width: calc(100% + 30px);
+                    top: unset;
+                    right: unset;
+                    margin: 0 0 0 -15px;
+                    box-shadow: none;
+                    background-color: $header-pink;
+
+                    &:after {
+                        border: none;
+                    }
+
+                    > li > a {
+                        color: white;
+                    }            
+                }
+            }
+        }
+    }
+}

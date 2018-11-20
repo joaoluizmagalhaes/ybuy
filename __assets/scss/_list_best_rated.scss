@@ -1,0 +1,62 @@
+section#list-best-rated {
+  > h3 > a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: $btn-blue;
+    margin: 9px 0 0;
+    > svg {
+      margin: 0 0 0 10px;
+    }
+  }
+  .row {
+    clear: left;
+  }
+  article {
+    margin: 20px 0 0;
+    > {
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      footer {
+        background: #fff;
+        border-left: 1px solid #e8e8e8;
+        border-right: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        padding: 15px 20px;
+        position: relative;
+        > {
+          svg {
+            position: absolute;
+            top: 11px;
+            right: 14px;
+          }
+          h4 {
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #000;
+            margin: 0;
+            line-height: 1.56;
+            -webkit-font-smoothing: auto;
+          }
+          h5 {
+            margin: 0;
+            > a {
+              font-weight: 700;
+              font-size: 1.2rem;
+              color: $btn-blue;
+            }
+          }
+          strong {
+            font-weight: normal;
+            font-size: 1.2rem;
+            color: #a6a6a6;
+          }
+        }
+      }
+    }
+  }
+}

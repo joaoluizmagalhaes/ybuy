@@ -1,0 +1,55 @@
+section#list-category-trending .row > div {
+  margin: 20px 0 0;
+  > a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    > {
+      span {
+        color: #fff;
+        float: left;
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 90px;
+        position: relative;
+        text-indent: 20px;
+        width: 100%;
+        z-index: 2;
+      }
+      p {
+        color: #fff;
+        float: left;
+        font-size: 1.2rem;
+        font-weight: normal;
+        line-height: 21px;
+        position: relative;
+        text-indent: 20px;
+        width: 100%;
+        z-index: 2;
+        margin: 4px 0 24px;
+      }
+      span.profile {
+        margin: 22px 0 0;
+        line-height: 21px;
+      }
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+main#post {
+    div.img-bf {
+        float: none;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    div.img-hs {
+        position: relative;
+        width: 35%;
+        float: left;
+        shape-outside: margin-box;
+        margin: 0 20px 0 0;
+    }
+
+    div.img-bf, div.img-hs {
+        > .img-wrapper {
+            position: relative;
+
+            > {
+                span {
+                    background: #f55659;
+                    color: #fff;
+                    display: inline-block;
+                    font-size: 2.4rem;
+                    font-weight: 700;
+                    left: 0;
+                    line-height: 1.67;
+                    padding: 10px 18px;
+                    position: absolute;
+                    text-align: center;
+                    top: 0;
+                    z-index: 1;
+                }
+                .review {
+                    background: #f55659;
+                    bottom: 0;
+                    color: #fff;
+                    height: 110px;
+                    position: absolute;
+                    right: 0;
+                    width: 110px;
+                    overflow: hidden;
+                    z-index: 2;
+                    > {
+                        strong {
+                            display: block;
+                            font-size: 2.2rem;
+                            text-align: center;
+                            font-weight: 700;
+                            margin: 15px 0 5px;
+                        }
+                        span {
+                            text-align: center;
+                            display: block;
+                            font-size: 1.4rem;
+                        }
+                        div.review-element {
+                            background: #f67678;
+                            overflow: auto;
+                            margin: 2px 0 0;
+                            padding: 12px 0 9px 15px;
+                            > span {
+                                width: 15px;
+                                height: 15px;
+                                background: url(__assets/img/star-full.png) no-repeat 0 0;
+                                display: block;
+                                float: left;
+                                margin: 0 3px 0 0;
+                                &.e {
+                                    width: 15px;
+                                    height: 15px;
+                                    background: url(__assets/img/star-empty.png) no-repeat 0 0;
+                                    display: block;
+                                    float: left;
+                                }
+                            }
+                        }
+                    }
+                }
+                p {
+                    margin: 0;
+                }
+                img {
+                    width: 100%;
+                    position: relative;
+                }
+            }
+        }
+    }
+    .half-content {
+        position: relative;
+        width: 55%;
+        float: right;
+        shape-outside: margin-box;
+        margin: 0 0 0 20px;
+        > ul {
+            position: relative;
+            border: 1px solid #000;
+            float: right;
+            list-style-image: initial !important;
+            list-style: none;
+            margin: 0 0 15px 15px;
+            padding: 15px;
+            width: 100%;
+            > li {
+                padding: 0 0 15px;
+                border-bottom: 2px solid #e1e1e1;
+                overflow: auto;
+                margin: 0 0 15px;
+                &:last-of-type {
+                    padding: 0;
+                    border: none;
+                    margin: 0;
+                }
+                > {
+                    strong {
+                        font-size: 2rem;
+                        color: #000;
+                        position: relative;
+                        top: 2px;
+                    }
+                    span {
+                        font-size: 1.3rem;
+                        color: #575757;
+                        text-align: right;
+                        margin: 0 0 0 30px;
+                        position: relative;
+                        top: -1px;
+                    }
+                    a {
+                        float: right;
+                        display: inline-block;
+                        padding: 7px 20px;
+                        border-radius: 20px;
+                        background: #09bd84;
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}

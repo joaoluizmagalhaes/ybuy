@@ -1,0 +1,55 @@
+section#list-where-to-find article {
+    margin: 20px 0 0;
+    position: relative;
+    > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    figure {
+        width: 180px;
+        height: 130px;
+        background-color: white;
+        position: relative;
+
+        > img {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    }
+    hr {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 1px;
+        background: #f2f2f2;
+        width: 100%;
+    }
+    p {
+        background: #fff;
+        padding: 15px 20px;
+        margin: 0;
+        font-size: 1.2rem;
+        color: #a6a6a6;
+        > strong {
+            color: #000;
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 1.39;
+            margin: 3px 0 0;
+            display: inline-block;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    section#list-where-to-find article {
+        figure {
+            width: 147.5px;
+        }
+    }
+}
